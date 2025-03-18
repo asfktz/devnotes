@@ -1,5 +1,8 @@
 # Dev Notes
 
+
+# FAQ
+
 ### Q: How can I achieve consistent dependency versions between packages and applications in a monorepo?
 
 A: Use [Syncpack](https://jamiemason.github.io/syncpack/guide/getting-started/). It helps identify version mismatches, enforce version policies, and fix inconsistencies automatically across your monorepo.
@@ -31,3 +34,14 @@ A: Add a `.npmrc` at the root of the project with:
 ```
 node-linker=hoisted
 ```
+
+
+---
+
+
+# Tools
+
+* [Signia](https://github.com/tldraw/signia) - atom-based state management, powering tldraw
+
+
+
