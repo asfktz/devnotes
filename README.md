@@ -7,3 +7,5 @@ A: Use [Syncpack](https://jamiemason.github.io/syncpack/guide/getting-started/).
 
 Sources: [1](https://www.reddit.com/r/webdev/comments/146rzbh/monorepo_dependency_management_pnpm_turborepo/?rdt=53306)
 
+[1](https://www.reddit.com/r/webdev/comments/146rzbh/comment/jntjwjs/)
+[2](https://turbo.build/repo/docs/crafting-your-repository/managing-dependencies#using-purpose-built-tooling)
