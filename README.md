@@ -43,5 +43,5 @@ node-linker=hoisted
 
 * [Signia](https://github.com/tldraw/signia) - atom-based state management, powering tldraw
 
-
+* https://github.com/unsplash/ts-namespace-import-plugin
 
