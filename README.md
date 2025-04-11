@@ -45,3 +45,4 @@ node-linker=hoisted
 
 * https://github.com/unsplash/ts-namespace-import-plugin
 
+* [Pake](https://github.com/tw93/Pake) - Turn any webpage into a desktop app with Rust.
