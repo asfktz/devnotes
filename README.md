@@ -57,3 +57,8 @@ template
 https://discord.com/channels/795981131316985866/1358382812146827326
 
 
+
+# Monorepo
+
+A New Nx Experience for TypeScript Monorepos and Beyond
+https://nx.dev/blog/new-nx-experience-for-typescript-monorepos
