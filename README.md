@@ -60,7 +60,8 @@ https://discord.com/channels/795981131316985866/1358382812146827326
 # TS
 
 Q: Why `console.log` is not recognized with preset `@tsconfig/node23/tsconfig.json`
-Install: `pnpm add @types/node`
+
+A: Install: `pnpm add @types/node`
 
 
 
