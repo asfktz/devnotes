@@ -69,3 +69,52 @@ A: Install: `pnpm add @types/node`
 
 A New Nx Experience for TypeScript Monorepos and Beyond
 https://nx.dev/blog/new-nx-experience-for-typescript-monorepos
+
+
+
+# Nx
+Q: How to remove the need for `.js` in imports?
+
+In `tsconfig.base.json`, replace 
+```json
+{
+    "module": "nodenext",
+    "moduleResolution": "nodenext"
+}
+```
+
+with:
+```json
+{
+    "module": "esnext",
+    "moduleResolution": "bundler"
+}
+```
+
+
+Q: When trying to serve an app generated with @nx/node:app
+I get:
+```
+Error [ERR_REQUIRE_ESM]: require() of ES Module /Users/asfktz/dev/project/packages/api/dist/index.js from /Users/asfktz/dev/project/apps/server-app/dist/apps/server-app/src/main.js not supported.
+Instead change the require of index.js in /Users/asfktz/dev/project/apps/server-app/dist/apps/server-app/src/main.js to a dynamic import() which is available in all CommonJS modules.
+    at Module._load (/Users/asfktz/dev/project/node_modules/@nx/js/src/executors/node/node-with-require-overrides.js:15:31)
+    at Object.<anonymous> (/Users/asfktz/dev/project/apps/server-app/dist/apps/server-app/src/main.js:2:18)
+```
+
+A: In the app's `package.json`, change:
+`nx -> targets -> options`
+
+From:
+```json5
+{
+  "format": ["cjs"],
+  "bundle": false,
+}
+```
+To:
+```json5
+{
+  "format": ["esm"],
+  "bundle": true,
+}
+```
