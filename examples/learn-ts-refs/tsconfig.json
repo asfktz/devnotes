@@ -1,0 +1,8 @@
+{
+  "extends": "@total-typescript/tsconfig/tsc/no-dom/app",
+  "references": [
+    { "path": "./packages/api" },
+    { "path": "./packages/front" },
+    { "path": "./packages/server" }
+  ]
+}

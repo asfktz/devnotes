@@ -1,0 +1,8 @@
+{
+	"devDependencies": {
+		"@total-typescript/tsconfig": "^1.0.4",
+		"@tsconfig/node23": "^23.0.1",
+		"prettier": "^3.5.3",
+		"typescript": "^5.8.3"
+	}
+}
