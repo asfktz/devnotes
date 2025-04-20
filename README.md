@@ -90,7 +90,7 @@ with:
     "moduleResolution": "bundler"
 }
 ```
-
+Source: https://discord.com/channels/1143497901675401286/1143540600252153946/1359111402354118706
 
 Q: When trying to serve an app generated with @nx/node:app
 I get:
