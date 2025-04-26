@@ -5,7 +5,10 @@
 
 ### Q: How can I achieve consistent dependency versions between packages and applications in a monorepo?
 
-A: Use [Syncpack](https://jamiemason.github.io/syncpack/guide/getting-started/). It helps identify version mismatches, enforce version policies, and fix inconsistencies automatically across your monorepo.
+
+A1: Use pnpm catalog: https://pnpm.io/catalogs
+
+A2: Use [Syncpack](https://jamiemason.github.io/syncpack/guide/getting-started/). It helps identify version mismatches, enforce version policies, and fix inconsistencies automatically across your monorepo.
 
 Sources: [1](https://www.reddit.com/r/webdev/comments/146rzbh/comment/jntjwjs/), [2](https://turbo.build/repo/docs/crafting-your-repository/managing-dependencies#using-purpose-built-tooling)
 
@@ -26,6 +29,8 @@ A: Add a `.syncpackrc` file to the root of the project with:
 ```
 
 Sources: [1](https://jamiemason.github.io/syncpack/examples/pnpm-workspace-protocol/#_top)
+
+
 
 ### Q: Can't get Expo 52+ to work in a monorepo how to fix?
 
